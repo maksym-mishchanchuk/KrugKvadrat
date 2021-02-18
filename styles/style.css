@@ -2,14 +2,15 @@
     width: 500px;
     height: 500px;
     border: 2px solid #000000;
-    margin: 0 auto;
+    position: relative;
 }
 .krug{
     width: 400px;
     height: 400px;
+    margin: 0 auto;
     background: #000000;
     border-radius: 50%;
-    position: relative;
-    left: 50px;
-    top: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
