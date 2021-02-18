@@ -3,13 +3,17 @@
     height: 500px;
     border: 2px solid #000000;
     margin: 0 auto;
+    position: relative;
 }
 .krug{
     width: 400px;
     height: 400px;
     background: #000000;
     border-radius: 50%;
-    position: relative;
-    left: 50px;
-    top: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
